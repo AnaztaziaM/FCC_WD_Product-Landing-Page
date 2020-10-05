@@ -1,0 +1,318 @@
+/* Styling the company name in h1.*/
+.company-name {font-family: 'Berkshire Swash', cursive;}
+
+/* Addig background picture*/
+body{background-image: url("https://www.hiddentreasuretours.com.au/wp-content/uploads/2019/11/Happy-cow.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  margin-left: 40px;
+  margin-right: 40px;}
+
+
+
+/* Sytling the headline. */
+#header{
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;  
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    border-bottom-right-radius: 25px;
+    flex-wrap:wrap; }
+
+#header-img{
+  width: 500px;
+  height: 90px;}
+
+#header-img img {
+    width: 100%;
+    height: auto;}
+
+
+/*navigation bottoms*/
+#nav-bar{
+  font-size: 20px;
+  margin-right: 70px;
+  }
+#nav-bar a:hover {
+  border-bottom: 3px solid red;
+}
+#nav-bar a.active {
+  border-bottom: 3px solid red;
+}
+
+#nav-bar a{
+  color:black;
+  text-decoration: none;
+  }
+
+
+.dropbtn {
+  border-radius: 20%;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  font-size:18px;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: grey;}
+:target{
+  padding-top:50px;
+  margin-top:-50px;
+}
+
+
+h1{
+  text-align:center;}
+
+#video{
+  width:560px; 
+  height:315px;}
+  
+  /* Setting for validation. */
+  input:valid {
+  box-shadow: 0 0 5px 1px none;
+  content: '✓';
+}
+
+input:invalid{
+  box-shadow: 0 0 5px 1px none;
+  content: '✖';
+}
+  
+  /* Sytling the home part. */
+  #home{
+    text-align:center;
+    }
+  
+  /* Format boxes */
+  #home, #activities, #reservation, #contact, #log-in{
+    background-color:rgba(255, 255, 255, 0.7);
+    border-radius: 20%;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-bottom:20px;
+    margin-top:20px;}
+  
+
+
+  /* Format form elements. */
+  #ask-for-fname, #ask-for-lname, #ask-for-comment, #ask-for-e-mail, #ask-for-password {
+    margin-left: 100px;
+    margin-top:10px;}
+  
+  /* Log in section. */
+   #log-in p{
+     margin-left: 100px;
+     }
+  #log-in a {text-align: center;}
+  
+ 
+ 
+ /* Sytling bottom image. */ 
+  #bottom-img{
+    width: 100px;
+    height: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;}
+#img-caption{
+  background-color:white;
+  text-align:center;}
+  
+/* Format texts */
+  h2, h3{margin-left: 100px;}
+  #mission{
+    text-alingn:center;
+  margin-left:0px;}
+  
+  
+  
+  input[type=text], input[type=password], input[type=email]{
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;}
+
+#additional{ 
+  border: 1px solid #ccc;}
+  
+  /* Submit butoms */
+  
+  #submit{ 
+  background: #87CEFA; 
+  background-position: 0px -401px; 
+  border: solid 1px #000000; 
+  color: black;
+  height: 40px;
+  width: 120px;
+  margin-top: -1px;
+  padding-bottom: 2px;
+  border-radius: 30%;
+  margin:auto 0;
+  font-weight: bold;}
+  
+  #ask-for-submit{
+     margin-left: 300px;}
+  
+/* Play with animals pictures */ 
+  .play-pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 900px;
+    height: 200px;
+    margin-left:100px;
+    flex-wrap:wrap;}
+
+ #play-with-cow, #play-with-pig, #play-with-sheep, #play-with-dogs{
+    width:200px;
+    height:110px;
+    border-radius: 8px;
+    border: 3px solid white;}
+  
+  
+   /* Hiking pictures */ 
+  .hiking-pictures{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 900px;
+    height: 300px;
+    margin-left:100px;
+    flex-wrap:wrap;}
+
+ #hiking-one, #hiking-two, #hiking-three{
+    width:270px;
+    height:160px;
+    border-radius: 8px;
+    border: 3px solid white;}
+  
+  
+    /* Room pictures */ 
+  .rooms{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-evenly;
+    width: 900px;
+    height: 300px;
+    margin-left:60px;
+    flex-wrap:wrap;}
+  
+  
+  #room{
+    width:280px;
+    height:160px;
+    border-radius: 8px;
+    border: 3px solid white;}
+  
+  #breakfast-dinner, #breakfast, #no-breakfast{ text-align:center;
+    background-color:white;}
+  
+  
+  
+/* Setting the media querys. */
+@media screen and (max-width: 400px) {
+  #header-img{
+    width: 360px;
+    height: 60px;}
+  
+  body{ 
+  margin-left: 0px;
+  margin-right: 0px;}
+  
+  #nav-bar{
+  font-size: 16px;
+  margin-right: 5px;}
+  #home, #activities, #reservation, #contact, #log-in{
+    margin-left:10px;
+    margin-right:10px;}
+  
+  #video{
+  width:300px; 
+  height:155px;}
+  
+  #submit{ 
+  height: 20px;
+  width: 60px;}
+  
+  #additional{
+    width:300px;
+    height:50px;}
+  
+    #home, #activities, #reservation, #contact, #log-in{
+    margin-left:15px;
+    margin-right:15px;}
+  
+    #ask-for-fname, #ask-for-lname, #ask-for-comment, #ask-for-e-mail, #ask-for-password, #log-in p {
+    margin-left: 10px;}
+  
+  h2, h3 {
+    margin-left: 25px;}
+  h1{
+    font-size: 20px;}
+  
+  #ask-for-submit{
+    margin-left: 250px;}
+  
+  input[type=text], input[type=password], input[type=email]{
+  width: 90%; }  
+}
+
+@media screen and (max-width: 400px) {.hiking-pictures, .play-pictures{
+    display: block;
+    width: auto;
+    height: auto;
+    margin-left:70px;}
+  
+#hiking-one, #hiking-two, #hiking-three{
+    width:210px;
+    height:140px;}
+  
+  .rooms{
+    display: block;
+    width:auto;
+    height:auto;
+    margin-left:70px;}
+  
+  #room{
+    width:210px;
+    height:140px;
+    border-radius: 5px;
+    border: 3px solid white;}
+  
+  #breakfast-dinner, #breakfast, #no-breakfast{width:212px;}
+  
+}
+  
